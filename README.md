@@ -11,20 +11,32 @@ Aprender a utilizar a biblioteca **Streamlit** para criar um dashboard interativ
 
 ## 🚀 Tecnologias Utilizadas
 
-- **Python 3.8+**
+- **Python**
 - **Streamlit** - Framework para criar aplicações web de dados
 - **Pandas** - Manipulação e análise de dados
-- **Matplotlib/Plotly** - Visualização de gráficos (opcional)
+- **Plotly** - Visualização de gráficos (opcional)
 
 ## 📦 Instalação
 
-### Pré-requisitos
-- Python instalado no seu computador
-- pip (gerenciador de pacotes do Python)
-
 ### Passo a passo
 
-1. **Clone este repositório:**
-```bash
-git clone https://github.com/bo-ds/imersao-dados-python.git
-cd imersao-dados-python
+1. Criar o ambiente virtual:
+python3 -m venv .venv
+
+2. Ativar o ambiente virtual em Windows:
+.venv\Scripts\Activate
+
+Ou ativar o ambiente virtual em MAC/LINUX:
+source .venv/bin/activate
+
+3. Criar um arquivo chamado requirements.txt e adicionar os pacotes necessários
+pandas==2.2.3
+streamlit==1.44.1
+plotly==5.24.1
+
+4. Instalar as bibliotecas necessárias
+pip install -r requirements.txt
+
+5. Criar a Interface do Dashboard com Streamlit
+
+6. Realizar o deploy do Dashboard no Streamlit Cloud: https://streamlit.io/cloud
